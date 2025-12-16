@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Playwrite NG Modern", cursive;
     background-color: #bbb2b2;
     color: #333;
     line-height: 1.6;
@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(247, 237, 237);
 }
 
 .content {
@@ -20,6 +21,7 @@ body {
     display: flex;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     min-height: 500px; /* ensures full height for singin */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.678);
 }
 
 .login,
@@ -30,10 +32,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px;
+
 }
 
 .login {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .login h2 {
@@ -56,9 +59,10 @@ body {
 .login button {
     width: 100%;
     padding: 12px;
-    border-radius: 4px;
+    border-radius: 6px;
     border: none;
     font-size: 16px;
+    font-family: "Playwrite NG Modern", cursive;
 }
 
 .login input {
@@ -66,9 +70,10 @@ body {
 }
 
 .login button {
-    background-color: #06af4d;
+    background-color: #06af4c;
     color: white;
     cursor: pointer;
+    font-family: "Playwrite NG Modern", cursive;
 }
 
 .login button:hover {
@@ -95,20 +100,22 @@ body {
 }
 .singin {
     color: white;
-    background-color: #06af4d;
+    background-color: #06af4c;
     text-align: center;
+     background: linear-gradient(45deg, #095c2c , #06af4c );
 }
 .singin p{
     font-size: 16px;
 }
 .singin button{
-    background-color:#059a42;
+    background-color:#0a813c;
     color: white;
     cursor: pointer;
     border: none;
     padding: 15px;
     border-radius: 22px;
     width: 60%;
+    font-family: "Playwrite NG Modern", cursive;
 }
 .singin button:hover {
     background-color: #0ea74e;
