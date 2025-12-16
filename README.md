@@ -1,4 +1,4 @@
-# Login Project (Node.js)
+# whiteGreen
 
 This project contains a simple **login interface** with a **Node.js server**.
 To make the project work correctly, you must run the backend server.
